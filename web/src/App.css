@@ -1,0 +1,108 @@
+/* General body and layout adjustments */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Default text color for better readability */
+}
+
+/* Heading styles for a consistent and attractive look */
+h1, h2, h3, p {
+    margin: 10px 20px;
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue shade for main titles */
+}
+
+/* Form elements styling for better user experience */
+input, button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: auto;
+    display: inline-block; /* Ensure inputs and buttons align properly */
+}
+
+input {
+    background-color: #fff;
+    width: 300px; /* Fixed width for inputs */
+}
+
+/* Button specific styling */
+button {
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+/* Header styling for top navigation or title bar */
+.header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Styling for welcome message */
+.welcome-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Additional styles for layout and responsiveness */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Utility classes for spacing and alignment */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Styling for lists, cards, or other components */
+.card {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header, .container, .card {
+        padding: 10px;
+    }
+
+    input {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
